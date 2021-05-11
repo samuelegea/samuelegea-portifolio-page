@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     
-    background: #0000008f ;
+    background: #000000 ;
     /* opacity: 40%; */
+    z-index: 10;
     nav{
         .ml-auto{
             margin-left:auto;

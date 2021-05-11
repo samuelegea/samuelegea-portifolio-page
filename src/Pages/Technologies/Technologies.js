@@ -9,7 +9,7 @@ export function Technologies() {
         <Container>
             <div className="content d-flex">
                 <div className="w-100 mt-5">
-                    <h3>Tecnologias</h3>
+                    <h3 id="technologies">Tecnologias</h3>
 
                     <p>
                         Essas são tecnologias que eu conheço e já implementei, seguida do meu nível de proeficiência e meus interesses de estudo atuais.
@@ -146,19 +146,20 @@ export function Technologies() {
                                 <div className="d-block w-100">
                                     <br />
                                     <h5>Interesses atuais</h5>
-                                    
-                                    <ul className="w-80">
-                                        <li>Firebase</li>
-                                        <li>Electron</li>
-                                        <li>Flutter</li>
-                                        <li>Elixir</li>
-                                        <li>TypeScript</li>
-                                        <li>Machine Learning</li>
-                                        <li>BlitsJS</li>
-                                        <li>ThreeJS</li>
-                                        <li>React Native</li>
-                                        <li>NodeJS</li>
-                                    </ul>
+                                    <div className="d-flex justify-content-center">
+                                        <ul className="w-80">
+                                            <li className="h-2em">Firebase</li>
+                                            <li className="h-2em">Electron</li>
+                                            <li className="h-2em">Flutter</li>
+                                            <li className="h-2em">Elixir</li>
+                                            <li className="h-2em">TypeScript</li>
+                                            <li className="h-2em">Machine Learning</li>
+                                            <li className="h-2em">BlitsJS</li>
+                                            <li className="h-2em">ThreeJS</li>
+                                            <li className="h-2em">React Native</li>
+                                            <li className="h-2em">NodeJS</li>
+                                        </ul>
+                                    </div>
                                         
 
 

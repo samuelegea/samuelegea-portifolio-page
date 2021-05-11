@@ -7,13 +7,13 @@ import programming_bro from "./../../assets/Programming-bro.svg"
 export function About() {
     return (
         <Container>
-            <div className="content">
+            <div className="content" id="content">
                 <div className="w-100 mt-5">
                     <Row >
                         <Col lg={6} >
                             <div className="d-flex justify-content-center">
                                 <div className="d-block w-80">
-                                    <h3>Sobre</h3>
+                                    <h3 id="about">Sobre</h3>
 
                                     <p className="">
                                     Sou técnico em eletrônica, atualmente cursando Engenharia Mecatrônica, estudante autodidata em programação WEB e entusiasta da comunidade maker, principalmente da área de impressão 3D.

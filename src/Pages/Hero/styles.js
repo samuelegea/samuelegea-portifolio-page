@@ -10,7 +10,7 @@ export const Container = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -10;
+  z-index: -1;
   
   background-position: 50% 0;
   background-size: 100%;
@@ -32,7 +32,7 @@ export const Container = styled.div`
       animation: bounce 1s ease infinite;
   bottom: 2rem;
   color: white;
-  content: '╲╱';
+  content: '\f104';
   font-size: 2rem;
   height: 4rem;
   left: 50%;

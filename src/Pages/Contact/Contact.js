@@ -11,7 +11,7 @@ export function Contact() {
                 <div className="w-100 mt-5">
                     <Row>
                         <Col md={6}>
-                            <h3>Contato</h3>
+                            <h3 id="contact">Contato</h3>
                             <br/>
                             <br/>
                             <p>

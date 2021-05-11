@@ -10,20 +10,7 @@ import logo from '../../assets/logo.svg';
 export default function Header() {
     return (
         <Container>
-            {/* <header className="">
-                <div>
-                    <a href="/">Home</a>
-                </div>
- 
-                <div>
-
-                    <a href="https://github.com/samuelegea" target="_blank"><GitHubIcon/></a> 
-                    <a href="https://www.linkedin.com/in/samuel-egea-67479b144/" target="_blank"><LinkedInIcon/></a> 
-                    <a href='/contact' ><CallIcon/></a> 
-
-
-                </div>
-            </header> */}
+            
 
             
             <Navbar expand="md" variant="dark" className="px-4">
@@ -44,7 +31,7 @@ export default function Header() {
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">Sobre</Nav.Link>
                         <Nav.Link href="#qualifications">Qualificações</Nav.Link>
-                        <Nav.Link href="#tech">Tecnologias</Nav.Link>
+                        <Nav.Link href="#technologies">Tecnologias</Nav.Link>
                         <Nav.Link href="#portifolio">Portfolio</Nav.Link>
                         <Nav.Link href="#contact">Contato</Nav.Link>
                         <Nav.Link href="https://github.com/samuelegea" target="_blank"><GitHubIcon /></Nav.Link>

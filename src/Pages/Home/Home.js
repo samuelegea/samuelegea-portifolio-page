@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Container } from './styles';
 import avatar from './../../assets/avatar.jpg'
@@ -10,8 +10,15 @@ import { Portfolio } from '../Portfolio/Portfolio';
 import { Contact } from '../Contact/Contact';
 
 export function Home() {
+    useEffect(() => {
+        window.addEventListener('scroll', fadehero)
+    }, [])
+
+    function fadehero() {
+        document.getElementById('hero').style.opacity = 1 -  document.documentElement.scrollTop / 700
+    }
     return (
-        <Container>
+        <Container >
             <About />
             <Qualifications />
             <Technologies />
@@ -25,6 +32,10 @@ export function Home() {
             </div>
             <Portfolio />
             <Contact />
+
+            <div className='scroll-up'>
+                /\
+            </div>
         </Container>
     )
 }

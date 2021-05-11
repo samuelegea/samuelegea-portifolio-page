@@ -5,8 +5,8 @@ import avatar from './../../assets/avatar.jpg'
 
 export function Hero() {
     return (
-        <Container>
-            <div className="content">
+        <Container id="hero">
+            <div className="content" id="home">
                     <Row className="mt-10">
                         <Col sm={6} >
                             <div className="d-none d-md-flex justify-content-end">

@@ -12,7 +12,7 @@ export function Qualifications() {
                         <Col lg={6} >
                             <div className="d-flex justify-content-center">
                                 <div className="d-block">
-                                    <h3>Qualificações</h3>
+                                    <h3 id="qualifications">Qualificações</h3>
                                     <br />
                                     <h5>Graduações</h5>
                                     <ul className="w-80">
