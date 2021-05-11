@@ -145,7 +145,9 @@ export function Technologies() {
                         <div className="d-flex justify-content-center">
                                 <div className="d-block w-100">
                                     <br />
-                                    <h5>Interesses atuais</h5>
+                                    <div className="d-flex justify-content-center">
+                                        <h5 className="w-80">Interesses atuais</h5>
+                                    </div>
                                     <div className="d-flex justify-content-center">
                                         <ul className="w-80">
                                             <li className="h-2em">Firebase</li>
