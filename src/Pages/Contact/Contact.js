@@ -7,8 +7,8 @@ import mention_bro from "./../../assets/Mention-bro.svg"
 export function Contact() {
     return (
         <Container>
-            <div className="content d-flex">
-                <div className="w-100 mt-5">
+            <div className="content d-flex justify-content-center">
+                <div className="w-80 mt-5">
                     <Row>
                         <Col md={6}>
                             <h3 id="contact">Contato</h3>

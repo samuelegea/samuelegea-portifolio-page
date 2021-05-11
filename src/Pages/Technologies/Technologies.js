@@ -7,8 +7,8 @@ import Rating from '../../Components/Rating/Rating';
 export function Technologies() {
     return (
         <Container>
-            <div className="content d-flex">
-                <div className="w-100 mt-5">
+            <div className="content d-flex justify-content-center">
+                <div className="w-80 mt-5">
                     <h3 id="technologies">Tecnologias</h3>
 
                     <p>
@@ -26,23 +26,23 @@ export function Technologies() {
                                             <Rating rating={5} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >Linguagem Ruby</li>
+                                            <li >Ruby</li>
                                             <Rating rating={4} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >Linguagem JavaScript</li>
+                                            <li >JavaScript</li>
                                             <Rating rating={4} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >Linguagem Python</li>
+                                            <li >Python</li>
                                             <Rating rating={4} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >Linguagem PHP</li>
+                                            <li >PHP</li>
                                             <Rating rating={3} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >Linguagem Java</li>
+                                            <li >Java</li>
                                             <Rating rating={3} />
                                         </div>
                                     </ul>
@@ -60,7 +60,7 @@ export function Technologies() {
                                             <Rating rating={4} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >NodeJSt</li>
+                                            <li >NodeJS</li>
                                             <Rating rating={3} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
@@ -120,11 +120,11 @@ export function Technologies() {
                                             <Rating rating={3} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >SQL - PostgreSQL</li>
+                                            <li >PostgreSQL</li>
                                             <Rating rating={4} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">
-                                            <li >NoSQL - MongoDB</li>
+                                            <li >MongoDB</li>
                                             <Rating rating={4} />
                                         </div>
                                         <div className="d-flex justify-content-between h-2em align-items-center">

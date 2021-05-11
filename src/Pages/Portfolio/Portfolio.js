@@ -9,15 +9,15 @@ import {ReactComponent as Portfolio_SVG} from "./../../assets/portfolio.svg"
 export function Portfolio() {
     return (
         <Container>
-            <div className="content d-flex">
-                <div className="w-100 mt-5">
+            <div className="content d-flex justify-content-center">
+                <div className="w-80 mt-5">
                     <h3 id="portifolio">Portfolio</h3>
 
                     <p>
                         Esses são meus projetos públicos documentados, alguns ainda estão em desenvolvimento e mais estão por vir.
                     </p>
                    
-                   <Row className="d-flex justify-content-center">
+                   <Row className="d-flex justify-content-center" spacing={4}>
                        <Col lg={4} md={6} className="project-card">
                            <a href="https://github.com/samuelegea/python_study" target="__blank">
                                 <div className="d-block w-100">
