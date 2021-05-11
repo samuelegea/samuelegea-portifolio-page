@@ -1,56 +1,46 @@
 import styled from 'styled-components';
+import background from './../../assets/1.jpg'
 
 export const Container = styled.div`
-  flex-grow:1;
-  max-width: 1200px;
-  padding: 15px;
+  
+  width: 100%;  
+  display: inline-block;
+  
+  color: #fff;
+  background: linear-gradient(72.44deg, #17181A 8.85%, #494C51 100%);
+
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: calc(9*100vw/16);
   justify-content: center;
-  margin: auto;
-  .white{
-      color: white;
-  }
-  .center-text{
-    text-align: center;
+  
+  .content{
+    width: 100%;
+    max-width: 1200px;
 
-  }
-  .full-width{
-    /* position: relative; */
-    /* margin-left: -50vw; */
-    /* margin-right: -50vw; */
-    width: 100vw;
-  }
-  .color-dark{
-      background-color: #353535;
-      border-radius: 10px;
-      color: white;
-  }
-
-  .d-flex{
-    display:flex;
-  }
-  .avatar{
-      margin: auto;
+    .image{
+      max-height: 80vw;
+      max-width: 80vw;
+    }
+    
+    .avatar{
+      height: 25vw;
+      width: 25vw;
       object-fit: cover;
       border-radius: 50%;
-  }
-  div{
-      width: 100%;
-      justify-content: center;
-      text-justify: center;
-  }
-  .MuiPaper-root{
-      width: 100%;
-  }
-  .icon{
-      height: 150px;
-      width: 150px;
-  }
-  .d-block{
-      display: block;
-      margin: 30px 0;
+      box-shadow: 10px 10px 10px black;
     }
-    caption{
-        margin-top: 15px;
+    p{
+      color: #fff;
+      margin:0;
+    }
+    h1{
+      text-shadow: 0 3px 10px black;
+    }
+    p, h1, h3, h5{
+      margin-left: 10px;
     }
 
+  }
 `;

@@ -7,12 +7,15 @@ export const Container = styled.div`
   justify-content: center;
 
   .content{
-    min-height: 500px;
-    a{
-      text-decoration: none;
-      color: white;
-      p{
-        text-align:center;
+    .h-2em{
+      height: 2em;
+    }
+    ul{
+      list-style: none;
+      li::before {
+        content: "⬧ ";
+        font-weight: bold;
+        color: #00ffff; /* or whatever color you prefer */
       }
     }
     
