@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Container } from './styles';
 import nerd_amico from "./../../assets/Nerd-amico.svg"
-import Rating from '../../components/Rating/Rating';
+import Rating from '../../Components/Rating/Rating';
 
 export function Technologies() {
     return (
