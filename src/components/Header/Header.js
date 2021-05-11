@@ -7,7 +7,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import logo from '../../assets/logo.svg';
 
  
-export default function Header() {
+export function Header() {
     return (
         <Container>
             

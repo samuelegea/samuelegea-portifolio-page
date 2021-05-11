@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './Components/Header/Header';
+import { Header } from './Components/Header/Header';
 import { Routes } from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
