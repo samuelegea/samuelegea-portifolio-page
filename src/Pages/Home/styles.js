@@ -14,6 +14,16 @@ export const Container = styled.div`
   position: absolute;
   top: calc(9*100vw/16);
   justify-content: center;
+
+  @media (max-width: 800px){
+    top: calc((3/2) * 9 * 100vw / 16);
+  }
+  .large_image{
+        
+    max-height: 90vw;
+    max-width: 90vw;
+
+  }
   
   .content{
     width: 100%;

@@ -27,7 +27,7 @@ export function Home() {
                     src={code_typing_pana}
                     height="800"
                     width="800"
-                    className="image"
+                    className="large_image"
                 />
             </div>
             <Portfolio />
