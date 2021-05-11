@@ -34,14 +34,14 @@ export function Qualifications() {
                             </div>
                             
                         </Col>
-                        <Col lg={6} >
-                        <div className="d-flex justify-content-center">
-                                <div className="d-block">
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <h5>Cursos e Workshops</h5>
-                                    <ul className="w-80">
+                        <Col lg={6} className="d-flex justify-content-center" >
+                            <div className="d-block w-80">
+                                <br />
+                                <br />
+                                <br />
+                                <h5>Cursos e Workshops</h5>
+                                <div className="d-flex justify-content-center">
+                                    <ul className="">
                                         
                                         <li>
                                             NLW#3 - RocketSeat - Trilha de Flutter e React
